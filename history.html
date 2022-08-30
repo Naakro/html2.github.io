@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Percobaan</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.0.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img class="img-header" src="img/foto.png" alt="logo" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="history.html">OUR HISTORY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>History Us</h1>
+    </section>
+    <!-- akhir header -->
+
+    <!-- Our History -->
+    <section class="history-us">
+      <h1>The start of this Company</h1>
+      <div class="history-col">
+        <div class="history-col">
+          <img src="img/pelabuhan.jpg" />
+        </div>
+        <p>
+          The history of this company is that it started with a teenager who went to the market and saw traders complaining about their merchandise which was difficult to get customers, not only that but the price of goods dropped
+          drastically. provide benefits to them and after that a teenager learned about export and import years later the teenager finally dared to build this company to help the economy of the surrounding community by selling their wares
+          <br /><br />
+          This company was also built because seeing the needs of other countries which often lack basic and premier ingredients, this company was formed
+        </p>
+      </div>
+      <div class="history-1">
+        <h1>FROM ONE PERSON TO ANOTHER</h1>
+      </div>
+      <div class="history-2">
+        <p>
+          <strong
+            >Thanks for visiting our company profile constantly receiving new ideas and feedback to try and improve our business & we love to hear our customers' thoughts. Feel free to check some customer reviews or leave an anonymous
+            comment (good or bad) so we can help improve your experience</strong
+          >
+        </p>
+        <img src="img/poto.jpeg" alt="" />
+        <p><strong>Co-Founder Naufal AR</strong></p>
+      </div>
+    </section>
+
+    <!-- akhir Our history-->
+
+    <!-- footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+        Magnam rerum commodi eos iusto qui corporis.
+      </p>
+      <div class="icon">
+        <i class="fa-brands fa-facebook-square"></i>
+        <a href="https://www.instagram.com/anjaborneo/"><i class="fa-brands fa-instagram"></i></a>
+        <i class="fa-brands fa-twitter-square"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+      <p>Made By Naufal Akmal Rosaidi</p>
+    </section>
+    <!-- akhirfooter -->
+
+    <!-- javascript for toggle menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+    <!-- akhir javascript fo toggle menu -->
+  </body>
+</html>

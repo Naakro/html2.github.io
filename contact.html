@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Percobaan</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.0.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img class="img-header" src="img/foto.png" alt="logo" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="history.html">OUR HISTORY</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact Us</h1>
+    </section>
+    <!-- akhir header -->
+
+    <!-- contact us -->
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47216.63521351716!2d114.49816703124995!3d-3.319111000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de4223115b533e3%3A0x555363ed5d24ad80!2sGudang%20Harapan%20Kita!5e1!3m2!1sid!2sid!4v1656552129379!5m2!1sid!2sid"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fa fa-home"></i>
+            <span>
+              <h5>MHJ7+9J4, Jl. Ir. P. Moch. Noor, Pelambuan, Kec. Banjarmasin Bar., Kota Banjarmasin, Kalimantan Selatan 70118</h5>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-phone"></i>
+            <span>
+              <h5>0819********</h5>
+              <p>Monday to saturday, 10AM to 6PM</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-message"></i>
+            <span>
+              <h5>Info Anjabumiborneo@Gmail.com</h5>
+              <p>Email us your Query</p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-col"></div>
+      </div>
+    </section>
+    <!-- akhir contact us -->
+
+    <!-- footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+        Magnam rerum commodi eos iusto qui corporis.
+      </p>
+      <div class="icon">
+        <i class="fa-brands fa-facebook-square"></i>
+        <a href="https://www.instagram.com/anjaborneo/"><i class="fa-brands fa-instagram"></i></a>
+        <i class="fa-brands fa-twitter-square"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+      <p>Made By Naufal Akmal Rosaidi</p>
+    </section>
+    <!-- akhirfooter -->
+
+    <!-- javascript for toggle menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+    <!-- akhir javascript fo toggle menu -->
+  </body>
+</html>

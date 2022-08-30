@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Percobaan</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.0.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <section class="header">
+      <nav>
+        <a href="index.html"><img class="img-header" src="img/foto.png" alt="logo" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="history.html">OUR HISTORY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>AN<span>J</span>A BUM<span>I</span> BOR<span>N</span>EO</h1>
+        <p>from hand to hand from export to the world</p>
+        <a href="#about" class="hero-btn">Visit Us To Know More</a>
+      </div>
+    </section>
+    <!-- akhir header -->
+
+    <!-- course -->
+    <section class="course" id="about">
+      <h1>Welcome To Anja Worlds</h1>
+      <p>
+        The problem is that from year to year many people die from hunger, cold and exhaustion. One of the factors for this is the lack of basic needs and primary needs. That's why we give one stone to kill three birds <br />
+        by providing export services for you.
+      </p>
+      <div class="row">
+        <div class="course-col">
+          <h3><i class="fa-solid fa-truck"></i></h3>
+          <p>Delivery will use a container truck from the best container we choose</p>
+        </div>
+        <div class="course-col">
+          <h3><i class="fa-solid fa-basket-shopping"></i></h3>
+          <p>The goods we provide are very good and have been certified as the best goods</p>
+        </div>
+        <div class="course-col">
+          <h3><i class="fa-solid fa-shield"></i></h3>
+          <p>We also provide security and cleanliness in the products that we have provided, not only that we provide an insurance of 50% for delivery</p>
+        </div>
+        <div class="course-col">
+          <h3><i class="fa-solid fa-ship"></i></h3>
+          <p>At Anja Bumi Borneo, we only provide shipping by ship</p>
+        </div>
+      </div>
+    </section>
+    <!-- akhir course -->
+
+    <!-- company -->
+    <section class="company">
+      <h1>Items We provide</h1>
+      <p>
+        The goods we provide are coconut fiber, rice, and charcoal briquettes. Besides that, we also sell consigned goods such as sawdust, coconut oil and many others, and our products are products with the best research and are kept clean
+        and safe.
+      </p>
+
+      <div class="row">
+        <div class="company-col">
+          <img src="img/kelapa.jpg" />
+          <div class="layer">
+            <h3>COCONUT</h3>
+          </div>
+        </div>
+        <div class="company-col">
+          <img src="img/arang.jpg" />
+          <div class="layer">
+            <h3>CHORCOAL</h3>
+          </div>
+        </div>
+        <div class="company-col">
+          <img src="img/NASI.jpg" />
+          <div class="layer">
+            <h3>RICE</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir company -->
+
+    <!-- facilities -->
+    <section>
+      <div class="facilities1">
+        <div class="facilities">
+          <h1>Build A Dream</h1>
+        </div>
+        <h3><strong>Guided by our mission to prosper not just industries but communities and ultimately nations, we look towards sustaining growth for the environment and human capital.</strong></h3>
+        <p></p>
+      </div>
+    </section>
+    <!-- akhir facilities -->
+
+    <!-- contact us -->
+    <section class="cta">
+      <h1>Contact Us If You Like</h1>
+      <a href="contact.html" class="hero-btn">CONTACT US</a>
+    </section>
+    <!-- akhir contact us -->
+
+    <!-- footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+        Magnam rerum commodi eos iusto qui corporis.
+      </p>
+      <div class="icon">
+        <i class="fa-brands fa-facebook-square"></i>
+        <a href="https://www.instagram.com/anjaborneo/"><i class="fa-brands fa-instagram"></i></a>
+        <i class="fa-brands fa-twitter-square"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+      <p>Made By Naufal Akmal Rosaidi</p>
+    </section>
+    <!-- akhirfooter -->
+
+    <!-- javascript for toggle menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+    <!-- akhir javascript fo toggle menu -->
+  </body>
+</html>
